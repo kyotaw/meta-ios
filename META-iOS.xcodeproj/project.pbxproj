@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		B80769081F66E92200A0C492 /* SensorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80769071F66E92200A0C492 /* SensorsViewController.swift */; };
-		B807690A1F66E92200A0C492 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80769091F66E92200A0C492 /* SecondViewController.swift */; };
 		B807690D1F66E92200A0C492 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B807690B1F66E92200A0C492 /* Main.storyboard */; };
 		B807690F1F66E92200A0C492 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B807690E1F66E92200A0C492 /* Assets.xcassets */; };
 		B80769121F66E92200A0C492 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B80769101F66E92200A0C492 /* LaunchScreen.storyboard */; };
@@ -62,7 +61,6 @@
 		8AD8DA37DAC30E4719A1AFD7 /* Pods-META-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-META-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-META-iOS/Pods-META-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		B80769021F66E92200A0C492 /* META-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "META-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B80769071F66E92200A0C492 /* SensorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SensorsViewController.swift; path = "META-iOS/SensorsViewController.swift"; sourceTree = "<group>"; };
-		B80769091F66E92200A0C492 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		B807690C1F66E92200A0C492 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B807690E1F66E92200A0C492 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B80769111F66E92200A0C492 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -177,7 +175,6 @@
 			isa = PBXGroup;
 			children = (
 				B807693F1F66EB8800A0C492 /* LoginViewController.swift */,
-				B80769091F66E92200A0C492 /* SecondViewController.swift */,
 				B807690B1F66E92200A0C492 /* Main.storyboard */,
 				B807690E1F66E92200A0C492 /* Assets.xcassets */,
 				B80769101F66E92200A0C492 /* LaunchScreen.storyboard */,
@@ -468,7 +465,6 @@
 				B807694D1F66EB8800A0C492 /* LoginViewController.swift in Sources */,
 				B80769661F67A48800A0C492 /* AccountFactory.swift in Sources */,
 				B8CA786A1F67D700005A8C0B /* PlatformFactory.swift in Sources */,
-				B807690A1F66E92200A0C492 /* SecondViewController.swift in Sources */,
 				B80769641F67A10000A0C492 /* MainTabController.swift in Sources */,
 				B8CA78681F67D5A5005A8C0B /* PlatformId.swift in Sources */,
 				B8CA786E1F67E343005A8C0B /* Sensor.swift in Sources */,
