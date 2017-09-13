@@ -1,0 +1,6 @@
+.DS_Store
+Podfile.lock
+Pods/
+DerivedData/
+META-iOS.xcworkspace
+META-iOS/Config.plist
