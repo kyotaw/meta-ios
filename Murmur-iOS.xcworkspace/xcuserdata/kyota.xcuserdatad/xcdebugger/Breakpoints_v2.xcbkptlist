@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Murmur-iOS/controllers/LoginViewController.swift"
+            timestampString = "527233081.811746"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "pushLoginButton(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Murmur_iOS.LoginViewController.(pushLoginButton (Any) -&gt; ()).(closure #1)"
+                  moduleName = "Murmur-iOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kyota/work/Murmur-iOS/Murmur-iOS/controllers/LoginViewController.swift"
+                  timestampString = "527233101.163436"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "57">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Murmur_iOS.LoginViewController.(pushLoginButton (Any) -&gt; ()).(closure #1).(closure #1)"
+                  moduleName = "Murmur-iOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kyota/work/Murmur-iOS/Murmur-iOS/controllers/LoginViewController.swift"
+                  timestampString = "527233101.167977"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "50">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Murmur-iOS/controllers/SensorsViewController.swift"
+            timestampString = "527233131.93836"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Murmur-iOS/controllers/SensorsViewController.swift"
+            timestampString = "527233156.302485"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Murmur_iOS.SensorsViewController.viewDidLoad () -&gt; ()"
+                  moduleName = "Murmur-iOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kyota/work/Murmur-iOS/Murmur-iOS/controllers/SensorsViewController.swift"
+                  timestampString = "527233226.181933"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "75">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Murmur_iOS.SensorsViewController.(viewDidLoad () -&gt; ()).(closure #1)"
+                  moduleName = "Murmur-iOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kyota/work/Murmur-iOS/Murmur-iOS/controllers/SensorsViewController.swift"
+                  timestampString = "527233226.184985"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "50">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

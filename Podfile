@@ -7,7 +7,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '10.2'
 use_frameworks!
 
-target 'META-iOS' do
+target 'Murmur-iOS' do
   pod 'Socket.IO-Client-Swift', '~> 10.0.1'
   pod 'SwiftyJSON'
   pod 'Alamofire', '~> 4.0'

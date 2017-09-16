@@ -1,0 +1,759 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54D14B7AB1FB65640E88E673 /* Pods_Murmur_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DA61D738DE16D379BC31752 /* Pods_Murmur_iOS.framework */; };
+		B8E50E9B1F6CDEAF006DAE5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8E50E991F6CDEAF006DAE5D /* Main.storyboard */; };
+		B8E50E9D1F6CDEAF006DAE5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8E50E9C1F6CDEAF006DAE5D /* Assets.xcassets */; };
+		B8E50EA01F6CDEAF006DAE5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8E50E9E1F6CDEAF006DAE5D /* LaunchScreen.storyboard */; };
+		B8E50EAB1F6CDEAF006DAE5D /* Murmur_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E50EAA1F6CDEAF006DAE5D /* Murmur_iOSTests.swift */; };
+		B8E50EB61F6CDEAF006DAE5D /* Murmur_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E50EB51F6CDEAF006DAE5D /* Murmur_iOSUITests.swift */; };
+		B8E50EC91F6CE3A7006DAE5D /* AccountService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E50EC71F6CE3A7006DAE5D /* AccountService.swift */; };
+		B8E50ECA1F6CE3A7006DAE5D /* PlatformService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E50EC81F6CE3A7006DAE5D /* PlatformService.swift */; };
+		B8E50ED31F6CE3B1006DAE5D /* Accelerometer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E50ECB1F6CE3B1006DAE5D /* Accelerometer.swift */; };
+		B8E50ED41F6CE3B1006DAE5D /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E50ECC1F6CE3B1006DAE5D /* Account.swift */; };
+		B8E50ED51F6CE3B1006DAE5D /* AccountFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E50ECD1F6CE3B1006DAE5D /* AccountFactory.swift */; };
+		B8E50ED61F6CE3B1006DAE5D /* CMSensor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E50ECE1F6CE3B1006DAE5D /* CMSensor.swift */; };
+		B8E50ED71F6CE3B1006DAE5D /* Sensor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E50ECF1F6CE3B1006DAE5D /* Sensor.swift */; };
+		B8E50ED81F6CE3B1006DAE5D /* SensorFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E50ED01F6CE3B1006DAE5D /* SensorFactory.swift */; };
+		B8E50ED91F6CE3B1006DAE5D /* SensorStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E50ED11F6CE3B1006DAE5D /* SensorStatus.swift */; };
+		B8E50EDA1F6CE3B1006DAE5D /* SensorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E50ED21F6CE3B1006DAE5D /* SensorType.swift */; };
+		B8E50EDD1F6CE3BC006DAE5D /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E50EDB1F6CE3BC006DAE5D /* MainTabController.swift */; };
+		B8E50EDE1F6CE3BC006DAE5D /* SensorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E50EDC1F6CE3BC006DAE5D /* SensorsViewController.swift */; };
+		B8E50EE11F6CE3C5006DAE5D /* SensorListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E50EDF1F6CE3C5006DAE5D /* SensorListView.swift */; };
+		B8E50EE21F6CE3C5006DAE5D /* SensorListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E50EE01F6CE3C5006DAE5D /* SensorListViewCell.swift */; };
+		B8E50EE61F6CE3DF006DAE5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E50EE41F6CE3DF006DAE5D /* AppDelegate.swift */; };
+		B8E50EE71F6CE3DF006DAE5D /* MetaError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E50EE51F6CE3DF006DAE5D /* MetaError.swift */; };
+		B8E50EEE1F6CE458006DAE5D /* MurmurApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E50EEA1F6CE458006DAE5D /* MurmurApi.swift */; };
+		B8E50EEF1F6CE458006DAE5D /* MurmurApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E50EEB1F6CE458006DAE5D /* MurmurApiError.swift */; };
+		B8E50EF01F6CE458006DAE5D /* MurmurResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E50EEC1F6CE458006DAE5D /* MurmurResource.swift */; };
+		B8E50EF11F6CE458006DAE5D /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E50EED1F6CE458006DAE5D /* Resource.swift */; };
+		B8E50EF61F6CE46F006DAE5D /* Platform.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E50EF21F6CE46F006DAE5D /* Platform.swift */; };
+		B8E50EF71F6CE46F006DAE5D /* PlatformFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E50EF31F6CE46F006DAE5D /* PlatformFactory.swift */; };
+		B8E50EF81F6CE46F006DAE5D /* PlatformId.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E50EF41F6CE46F006DAE5D /* PlatformId.swift */; };
+		B8E50EF91F6CE46F006DAE5D /* PlatformList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E50EF51F6CE46F006DAE5D /* PlatformList.swift */; };
+		B8E50EFB1F6CEA61006DAE5D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E50EFA1F6CEA61006DAE5D /* LoginViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B8E50EA71F6CDEAF006DAE5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8E50E881F6CDEAF006DAE5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8E50E8F1F6CDEAF006DAE5D;
+			remoteInfo = "Murmur-iOS";
+		};
+		B8E50EB21F6CDEAF006DAE5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8E50E881F6CDEAF006DAE5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8E50E8F1F6CDEAF006DAE5D;
+			remoteInfo = "Murmur-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DA61D738DE16D379BC31752 /* Pods_Murmur_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Murmur_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E5F46638EDBD0E4FE39477C /* Pods-Murmur-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Murmur-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Murmur-iOS/Pods-Murmur-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		864F82EE66B1EC6799447622 /* Pods-Murmur-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Murmur-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Murmur-iOS/Pods-Murmur-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		B8E50E901F6CDEAF006DAE5D /* Murmur-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Murmur-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8E50E9A1F6CDEAF006DAE5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B8E50E9C1F6CDEAF006DAE5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B8E50E9F1F6CDEAF006DAE5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B8E50EA11F6CDEAF006DAE5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8E50EA61F6CDEAF006DAE5D /* Murmur-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Murmur-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8E50EAA1F6CDEAF006DAE5D /* Murmur_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Murmur_iOSTests.swift; sourceTree = "<group>"; };
+		B8E50EAC1F6CDEAF006DAE5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8E50EB11F6CDEAF006DAE5D /* Murmur-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Murmur-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8E50EB51F6CDEAF006DAE5D /* Murmur_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Murmur_iOSUITests.swift; sourceTree = "<group>"; };
+		B8E50EB71F6CDEAF006DAE5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8E50EC71F6CE3A7006DAE5D /* AccountService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AccountService.swift; path = services/AccountService.swift; sourceTree = "<group>"; };
+		B8E50EC81F6CE3A7006DAE5D /* PlatformService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlatformService.swift; path = services/PlatformService.swift; sourceTree = "<group>"; };
+		B8E50ECB1F6CE3B1006DAE5D /* Accelerometer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Accelerometer.swift; path = models/Accelerometer.swift; sourceTree = "<group>"; };
+		B8E50ECC1F6CE3B1006DAE5D /* Account.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Account.swift; path = models/Account.swift; sourceTree = "<group>"; };
+		B8E50ECD1F6CE3B1006DAE5D /* AccountFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AccountFactory.swift; path = models/AccountFactory.swift; sourceTree = "<group>"; };
+		B8E50ECE1F6CE3B1006DAE5D /* CMSensor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CMSensor.swift; path = models/CMSensor.swift; sourceTree = "<group>"; };
+		B8E50ECF1F6CE3B1006DAE5D /* Sensor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Sensor.swift; path = models/Sensor.swift; sourceTree = "<group>"; };
+		B8E50ED01F6CE3B1006DAE5D /* SensorFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SensorFactory.swift; path = models/SensorFactory.swift; sourceTree = "<group>"; };
+		B8E50ED11F6CE3B1006DAE5D /* SensorStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SensorStatus.swift; path = models/SensorStatus.swift; sourceTree = "<group>"; };
+		B8E50ED21F6CE3B1006DAE5D /* SensorType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SensorType.swift; path = models/SensorType.swift; sourceTree = "<group>"; };
+		B8E50EDB1F6CE3BC006DAE5D /* MainTabController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainTabController.swift; path = controllers/MainTabController.swift; sourceTree = "<group>"; };
+		B8E50EDC1F6CE3BC006DAE5D /* SensorsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SensorsViewController.swift; path = controllers/SensorsViewController.swift; sourceTree = "<group>"; };
+		B8E50EDF1F6CE3C5006DAE5D /* SensorListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SensorListView.swift; path = views/SensorListView.swift; sourceTree = "<group>"; };
+		B8E50EE01F6CE3C5006DAE5D /* SensorListViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SensorListViewCell.swift; path = views/SensorListViewCell.swift; sourceTree = "<group>"; };
+		B8E50EE41F6CE3DF006DAE5D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = core/AppDelegate.swift; sourceTree = "<group>"; };
+		B8E50EE51F6CE3DF006DAE5D /* MetaError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MetaError.swift; path = core/MetaError.swift; sourceTree = "<group>"; };
+		B8E50EEA1F6CE458006DAE5D /* MurmurApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MurmurApi.swift; path = MurmurApi/MurmurApi.swift; sourceTree = "<group>"; };
+		B8E50EEB1F6CE458006DAE5D /* MurmurApiError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MurmurApiError.swift; path = MurmurApi/MurmurApiError.swift; sourceTree = "<group>"; };
+		B8E50EEC1F6CE458006DAE5D /* MurmurResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MurmurResource.swift; path = MurmurApi/MurmurResource.swift; sourceTree = "<group>"; };
+		B8E50EED1F6CE458006DAE5D /* Resource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Resource.swift; path = MurmurApi/Resource.swift; sourceTree = "<group>"; };
+		B8E50EF21F6CE46F006DAE5D /* Platform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Platform.swift; path = models/Platform.swift; sourceTree = "<group>"; };
+		B8E50EF31F6CE46F006DAE5D /* PlatformFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlatformFactory.swift; path = models/PlatformFactory.swift; sourceTree = "<group>"; };
+		B8E50EF41F6CE46F006DAE5D /* PlatformId.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlatformId.swift; path = models/PlatformId.swift; sourceTree = "<group>"; };
+		B8E50EF51F6CE46F006DAE5D /* PlatformList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlatformList.swift; path = models/PlatformList.swift; sourceTree = "<group>"; };
+		B8E50EFA1F6CEA61006DAE5D /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = controllers/LoginViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B8E50E8D1F6CDEAF006DAE5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54D14B7AB1FB65640E88E673 /* Pods_Murmur_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8E50EA31F6CDEAF006DAE5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8E50EAE1F6CDEAF006DAE5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AFD4F96B06535ADF852FAB8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0DA61D738DE16D379BC31752 /* Pods_Murmur_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		58ADCA8D5B86A1ABD5EBF15F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7E5F46638EDBD0E4FE39477C /* Pods-Murmur-iOS.debug.xcconfig */,
+				864F82EE66B1EC6799447622 /* Pods-Murmur-iOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B8E50E871F6CDEAF006DAE5D = {
+			isa = PBXGroup;
+			children = (
+				B8E50E921F6CDEAF006DAE5D /* Murmur-iOS */,
+				B8E50EA91F6CDEAF006DAE5D /* Murmur-iOSTests */,
+				B8E50EB41F6CDEAF006DAE5D /* Murmur-iOSUITests */,
+				B8E50E911F6CDEAF006DAE5D /* Products */,
+				58ADCA8D5B86A1ABD5EBF15F /* Pods */,
+				2AFD4F96B06535ADF852FAB8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B8E50E911F6CDEAF006DAE5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8E50E901F6CDEAF006DAE5D /* Murmur-iOS.app */,
+				B8E50EA61F6CDEAF006DAE5D /* Murmur-iOSTests.xctest */,
+				B8E50EB11F6CDEAF006DAE5D /* Murmur-iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8E50E921F6CDEAF006DAE5D /* Murmur-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B8E50EE91F6CE3F5006DAE5D /* MurmurApi */,
+				B8E50EE31F6CE3D0006DAE5D /* core */,
+				B8E50EC61F6CDF52006DAE5D /* services */,
+				B8E50EC51F6CDF45006DAE5D /* models */,
+				B8E50EC41F6CDF3E006DAE5D /* controllers */,
+				B8E50EC31F6CDF34006DAE5D /* views */,
+				B8E50E991F6CDEAF006DAE5D /* Main.storyboard */,
+				B8E50E9C1F6CDEAF006DAE5D /* Assets.xcassets */,
+				B8E50E9E1F6CDEAF006DAE5D /* LaunchScreen.storyboard */,
+				B8E50EA11F6CDEAF006DAE5D /* Info.plist */,
+			);
+			path = "Murmur-iOS";
+			sourceTree = "<group>";
+		};
+		B8E50EA91F6CDEAF006DAE5D /* Murmur-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				B8E50EAA1F6CDEAF006DAE5D /* Murmur_iOSTests.swift */,
+				B8E50EAC1F6CDEAF006DAE5D /* Info.plist */,
+			);
+			path = "Murmur-iOSTests";
+			sourceTree = "<group>";
+		};
+		B8E50EB41F6CDEAF006DAE5D /* Murmur-iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B8E50EB51F6CDEAF006DAE5D /* Murmur_iOSUITests.swift */,
+				B8E50EB71F6CDEAF006DAE5D /* Info.plist */,
+			);
+			path = "Murmur-iOSUITests";
+			sourceTree = "<group>";
+		};
+		B8E50EC31F6CDF34006DAE5D /* views */ = {
+			isa = PBXGroup;
+			children = (
+				B8E50EDF1F6CE3C5006DAE5D /* SensorListView.swift */,
+				B8E50EE01F6CE3C5006DAE5D /* SensorListViewCell.swift */,
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
+		B8E50EC41F6CDF3E006DAE5D /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B8E50EFA1F6CEA61006DAE5D /* LoginViewController.swift */,
+				B8E50EDB1F6CE3BC006DAE5D /* MainTabController.swift */,
+				B8E50EDC1F6CE3BC006DAE5D /* SensorsViewController.swift */,
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
+		B8E50EC51F6CDF45006DAE5D /* models */ = {
+			isa = PBXGroup;
+			children = (
+				B8E50EF21F6CE46F006DAE5D /* Platform.swift */,
+				B8E50EF31F6CE46F006DAE5D /* PlatformFactory.swift */,
+				B8E50EF41F6CE46F006DAE5D /* PlatformId.swift */,
+				B8E50EF51F6CE46F006DAE5D /* PlatformList.swift */,
+				B8E50ECB1F6CE3B1006DAE5D /* Accelerometer.swift */,
+				B8E50ECC1F6CE3B1006DAE5D /* Account.swift */,
+				B8E50ECD1F6CE3B1006DAE5D /* AccountFactory.swift */,
+				B8E50ECE1F6CE3B1006DAE5D /* CMSensor.swift */,
+				B8E50ECF1F6CE3B1006DAE5D /* Sensor.swift */,
+				B8E50ED01F6CE3B1006DAE5D /* SensorFactory.swift */,
+				B8E50ED11F6CE3B1006DAE5D /* SensorStatus.swift */,
+				B8E50ED21F6CE3B1006DAE5D /* SensorType.swift */,
+			);
+			name = models;
+			sourceTree = "<group>";
+		};
+		B8E50EC61F6CDF52006DAE5D /* services */ = {
+			isa = PBXGroup;
+			children = (
+				B8E50EC71F6CE3A7006DAE5D /* AccountService.swift */,
+				B8E50EC81F6CE3A7006DAE5D /* PlatformService.swift */,
+			);
+			name = services;
+			sourceTree = "<group>";
+		};
+		B8E50EE31F6CE3D0006DAE5D /* core */ = {
+			isa = PBXGroup;
+			children = (
+				B8E50EE41F6CE3DF006DAE5D /* AppDelegate.swift */,
+				B8E50EE51F6CE3DF006DAE5D /* MetaError.swift */,
+			);
+			name = core;
+			sourceTree = "<group>";
+		};
+		B8E50EE91F6CE3F5006DAE5D /* MurmurApi */ = {
+			isa = PBXGroup;
+			children = (
+				B8E50EEA1F6CE458006DAE5D /* MurmurApi.swift */,
+				B8E50EEB1F6CE458006DAE5D /* MurmurApiError.swift */,
+				B8E50EEC1F6CE458006DAE5D /* MurmurResource.swift */,
+				B8E50EED1F6CE458006DAE5D /* Resource.swift */,
+			);
+			name = MurmurApi;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B8E50E8F1F6CDEAF006DAE5D /* Murmur-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8E50EBA1F6CDEAF006DAE5D /* Build configuration list for PBXNativeTarget "Murmur-iOS" */;
+			buildPhases = (
+				A018650ABE3A30200976B09D /* [CP] Check Pods Manifest.lock */,
+				B8E50E8C1F6CDEAF006DAE5D /* Sources */,
+				B8E50E8D1F6CDEAF006DAE5D /* Frameworks */,
+				B8E50E8E1F6CDEAF006DAE5D /* Resources */,
+				A3F33826F21FA2A287A94770 /* [CP] Embed Pods Frameworks */,
+				D3FB0EDAC446173F29FBE13F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Murmur-iOS";
+			productName = "Murmur-iOS";
+			productReference = B8E50E901F6CDEAF006DAE5D /* Murmur-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B8E50EA51F6CDEAF006DAE5D /* Murmur-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8E50EBD1F6CDEAF006DAE5D /* Build configuration list for PBXNativeTarget "Murmur-iOSTests" */;
+			buildPhases = (
+				B8E50EA21F6CDEAF006DAE5D /* Sources */,
+				B8E50EA31F6CDEAF006DAE5D /* Frameworks */,
+				B8E50EA41F6CDEAF006DAE5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8E50EA81F6CDEAF006DAE5D /* PBXTargetDependency */,
+			);
+			name = "Murmur-iOSTests";
+			productName = "Murmur-iOSTests";
+			productReference = B8E50EA61F6CDEAF006DAE5D /* Murmur-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B8E50EB01F6CDEAF006DAE5D /* Murmur-iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8E50EC01F6CDEAF006DAE5D /* Build configuration list for PBXNativeTarget "Murmur-iOSUITests" */;
+			buildPhases = (
+				B8E50EAD1F6CDEAF006DAE5D /* Sources */,
+				B8E50EAE1F6CDEAF006DAE5D /* Frameworks */,
+				B8E50EAF1F6CDEAF006DAE5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8E50EB31F6CDEAF006DAE5D /* PBXTargetDependency */,
+			);
+			name = "Murmur-iOSUITests";
+			productName = "Murmur-iOSUITests";
+			productReference = B8E50EB11F6CDEAF006DAE5D /* Murmur-iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B8E50E881F6CDEAF006DAE5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "watanabe kyota";
+				TargetAttributes = {
+					B8E50E8F1F6CDEAF006DAE5D = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = CNEXNH4Z26;
+						ProvisioningStyle = Automatic;
+					};
+					B8E50EA51F6CDEAF006DAE5D = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = CNEXNH4Z26;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B8E50E8F1F6CDEAF006DAE5D;
+					};
+					B8E50EB01F6CDEAF006DAE5D = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = CNEXNH4Z26;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B8E50E8F1F6CDEAF006DAE5D;
+					};
+				};
+			};
+			buildConfigurationList = B8E50E8B1F6CDEAF006DAE5D /* Build configuration list for PBXProject "Murmur-iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B8E50E871F6CDEAF006DAE5D;
+			productRefGroup = B8E50E911F6CDEAF006DAE5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8E50E8F1F6CDEAF006DAE5D /* Murmur-iOS */,
+				B8E50EA51F6CDEAF006DAE5D /* Murmur-iOSTests */,
+				B8E50EB01F6CDEAF006DAE5D /* Murmur-iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B8E50E8E1F6CDEAF006DAE5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8E50EA01F6CDEAF006DAE5D /* LaunchScreen.storyboard in Resources */,
+				B8E50E9D1F6CDEAF006DAE5D /* Assets.xcassets in Resources */,
+				B8E50E9B1F6CDEAF006DAE5D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8E50EA41F6CDEAF006DAE5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8E50EAF1F6CDEAF006DAE5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A018650ABE3A30200976B09D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A3F33826F21FA2A287A94770 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Murmur-iOS/Pods-Murmur-iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3FB0EDAC446173F29FBE13F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Murmur-iOS/Pods-Murmur-iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B8E50E8C1F6CDEAF006DAE5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8E50EE11F6CE3C5006DAE5D /* SensorListView.swift in Sources */,
+				B8E50EF71F6CE46F006DAE5D /* PlatformFactory.swift in Sources */,
+				B8E50ECA1F6CE3A7006DAE5D /* PlatformService.swift in Sources */,
+				B8E50EDE1F6CE3BC006DAE5D /* SensorsViewController.swift in Sources */,
+				B8E50ED71F6CE3B1006DAE5D /* Sensor.swift in Sources */,
+				B8E50EDD1F6CE3BC006DAE5D /* MainTabController.swift in Sources */,
+				B8E50EF61F6CE46F006DAE5D /* Platform.swift in Sources */,
+				B8E50EC91F6CE3A7006DAE5D /* AccountService.swift in Sources */,
+				B8E50ED31F6CE3B1006DAE5D /* Accelerometer.swift in Sources */,
+				B8E50EF11F6CE458006DAE5D /* Resource.swift in Sources */,
+				B8E50EF91F6CE46F006DAE5D /* PlatformList.swift in Sources */,
+				B8E50EE21F6CE3C5006DAE5D /* SensorListViewCell.swift in Sources */,
+				B8E50EEE1F6CE458006DAE5D /* MurmurApi.swift in Sources */,
+				B8E50EFB1F6CEA61006DAE5D /* LoginViewController.swift in Sources */,
+				B8E50ED61F6CE3B1006DAE5D /* CMSensor.swift in Sources */,
+				B8E50EE71F6CE3DF006DAE5D /* MetaError.swift in Sources */,
+				B8E50ED51F6CE3B1006DAE5D /* AccountFactory.swift in Sources */,
+				B8E50ED91F6CE3B1006DAE5D /* SensorStatus.swift in Sources */,
+				B8E50EE61F6CE3DF006DAE5D /* AppDelegate.swift in Sources */,
+				B8E50ED81F6CE3B1006DAE5D /* SensorFactory.swift in Sources */,
+				B8E50ED41F6CE3B1006DAE5D /* Account.swift in Sources */,
+				B8E50EEF1F6CE458006DAE5D /* MurmurApiError.swift in Sources */,
+				B8E50EF01F6CE458006DAE5D /* MurmurResource.swift in Sources */,
+				B8E50EDA1F6CE3B1006DAE5D /* SensorType.swift in Sources */,
+				B8E50EF81F6CE46F006DAE5D /* PlatformId.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8E50EA21F6CDEAF006DAE5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8E50EAB1F6CDEAF006DAE5D /* Murmur_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8E50EAD1F6CDEAF006DAE5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8E50EB61F6CDEAF006DAE5D /* Murmur_iOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B8E50EA81F6CDEAF006DAE5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8E50E8F1F6CDEAF006DAE5D /* Murmur-iOS */;
+			targetProxy = B8E50EA71F6CDEAF006DAE5D /* PBXContainerItemProxy */;
+		};
+		B8E50EB31F6CDEAF006DAE5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8E50E8F1F6CDEAF006DAE5D /* Murmur-iOS */;
+			targetProxy = B8E50EB21F6CDEAF006DAE5D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B8E50E991F6CDEAF006DAE5D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8E50E9A1F6CDEAF006DAE5D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B8E50E9E1F6CDEAF006DAE5D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8E50E9F1F6CDEAF006DAE5D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B8E50EB81F6CDEAF006DAE5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B8E50EB91F6CDEAF006DAE5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B8E50EBB1F6CDEAF006DAE5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E5F46638EDBD0E4FE39477C /* Pods-Murmur-iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CNEXNH4Z26;
+				INFOPLIST_FILE = "Murmur-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kyotaw.Murmur-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B8E50EBC1F6CDEAF006DAE5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 864F82EE66B1EC6799447622 /* Pods-Murmur-iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CNEXNH4Z26;
+				INFOPLIST_FILE = "Murmur-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kyotaw.Murmur-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		B8E50EBE1F6CDEAF006DAE5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = CNEXNH4Z26;
+				INFOPLIST_FILE = "Murmur-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kyotaw.Murmur-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Murmur-iOS.app/Murmur-iOS";
+			};
+			name = Debug;
+		};
+		B8E50EBF1F6CDEAF006DAE5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = CNEXNH4Z26;
+				INFOPLIST_FILE = "Murmur-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kyotaw.Murmur-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Murmur-iOS.app/Murmur-iOS";
+			};
+			name = Release;
+		};
+		B8E50EC11F6CDEAF006DAE5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = CNEXNH4Z26;
+				INFOPLIST_FILE = "Murmur-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kyotaw.Murmur-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Murmur-iOS";
+			};
+			name = Debug;
+		};
+		B8E50EC21F6CDEAF006DAE5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = CNEXNH4Z26;
+				INFOPLIST_FILE = "Murmur-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kyotaw.Murmur-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Murmur-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B8E50E8B1F6CDEAF006DAE5D /* Build configuration list for PBXProject "Murmur-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8E50EB81F6CDEAF006DAE5D /* Debug */,
+				B8E50EB91F6CDEAF006DAE5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8E50EBA1F6CDEAF006DAE5D /* Build configuration list for PBXNativeTarget "Murmur-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8E50EBB1F6CDEAF006DAE5D /* Debug */,
+				B8E50EBC1F6CDEAF006DAE5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8E50EBD1F6CDEAF006DAE5D /* Build configuration list for PBXNativeTarget "Murmur-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8E50EBE1F6CDEAF006DAE5D /* Debug */,
+				B8E50EBF1F6CDEAF006DAE5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8E50EC01F6CDEAF006DAE5D /* Build configuration list for PBXNativeTarget "Murmur-iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8E50EC11F6CDEAF006DAE5D /* Debug */,
+				B8E50EC21F6CDEAF006DAE5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B8E50E881F6CDEAF006DAE5D /* Project object */;
+}
